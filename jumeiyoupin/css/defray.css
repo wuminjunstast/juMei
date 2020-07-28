@@ -1,0 +1,394 @@
+@charset "utf-8";
+
+body {
+	background: white;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container .floor1 {
+	width: 100%;
+	height: 80px;
+	margin-top: 40px;
+	border-bottom: 2px solid #63aa56;
+}
+
+.container .floor1 .huawei_logo {
+	width: 205px;
+	height: 36px;
+	cursor: pointer;
+}
+
+.container .floor1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.container .floor1 span {
+	position: relative;
+	top: -36px;
+	left: 250px;
+}
+
+
+.container .floor2 {
+	width: 100%;
+	/* height: 236px; */
+	box-sizing: border-box;
+}
+
+.container .floor2 .left {
+	width: 64px;
+	height: 64px;
+	float: left;
+	position: relative;
+	top: 25px;
+	left: 30px;
+}
+
+.container .floor2 .left img {
+	width: 100%;
+	height: 100%;
+}
+
+.container .floor2 .right {
+	position: relative;
+	float: right;
+	width: 1080px;
+	margin-bottom: 80px;
+}
+
+.container .floor2 .right .up {
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+	/* background-color: #AADBF9; */
+	box-sizing: border-box;
+}
+
+.container .floor2 .right .up .up01 {
+	width: 100%;
+	height: 35px;
+	margin-bottom: 23px;
+}
+
+.container .floor2 .right .up .up01 #chenggong {
+	font-size: 20px;
+	color: #53a724;
+	float: left;
+}
+
+.container .floor2 .right .up .up01 .up01_01 {
+	float: left;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+.container .floor2 .right .up .up01 .up01_01 span:first-child {
+	line-height: 30px;
+	margin-right: 5px;
+	color: #000;
+}
+
+.container .floor2 .right .up .up01 .up01_01 #danhao {
+	color: #da3232;
+}
+
+.container .floor2 .right .up .up01 .up01_02 {
+	float: right;
+	margin-right: 30px;
+}
+
+.container .floor2 .right .up .up01 .up01_02 span:first-child {
+	font-size: 15px;
+	color: #000;
+	position: relative;
+	top: 0px;
+}
+
+.container .floor2 .right .up .up01 .up01_02 #jiner {
+	font-size: 24px;
+	color: #DA3232;
+	font-weight: 600;
+}
+
+
+.container .floor2 .right .up .up02 {
+	width: 100%;
+	height: 19px;
+	margin-bottom: 5px;
+	/* background-color: antiquewhite; */
+}
+
+.container .floor2 .right .up .up02 span {
+	font-size: 14px;
+	color: #333;
+}
+
+.container .floor2 .right .up .up02 span:first-child,
+.container .floor2 .right .up .up02 span:nth-child(2) {
+	float: left;
+	margin-right: 8px;
+}
+
+.container .floor2 .right .up .up02 em {
+	float: left;
+	margin-right: 8px;
+	font-size: 14px;
+	color: #da3232;
+}
+
+.container .floor2 .right .up .up02 .up02_01 {
+	float: right;
+	margin-right: 25px;
+	font-size: 13px;
+	color: #333;
+	cursor: pointer;
+}
+
+
+
+.container .floor2 .right .up .up03 {
+	width: 100%;
+	height: 20px;
+	color: #da3232;
+	/* background-color: blue; */
+}
+
+
+.container .floor2 .right .down {
+	width: 100%;
+	height: 100px;
+	display: none;
+}
+
+.container .floor2 .right .down span {
+	color: #333;
+}
+
+.container .box {
+	width: 1200px;
+	/* height: 300px; */
+	float: left;
+}
+
+.container .box .title {
+	width: 600px;
+	height: 42px;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	position: relative;
+}
+
+.container .box .tian {
+	width: 600px;
+	height: 41px;
+	position: absolute;
+	left: 600px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-right: none;
+
+}
+
+.container .title .item {
+	width: calc((100%)/4);
+	height: 42px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-right: none;
+	font-size: 14px;
+	text-align: center;
+	color: #000000;
+	line-height: 42px;
+}
+
+.container .title .item:last-child {
+	border-right: 1px solid #ccc;
+}
+
+.container .title>.item:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+
+.container .box .body {
+	width: 100%;
+	/* height: 310px; */
+
+	border-top: none;
+	box-sizing: border-box;
+}
+
+.container .box .body .page {
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.container .box .body .page:last-child,
+.container .box .body .page:first-child {
+	height: 200px;
+}
+
+.container .box .body .page:nth-child(2),
+.container .box .body .page:nth-child(3) {
+	height: 200px;
+}
+
+.container .box .body .page:first-child .neirong01,
+.container .box .body .page:nth-child(2) .neirong02 {
+	width: 1100px;
+}
+
+
+.container .box .body .page:first-child .neirong01 .zhifu01,
+.container .box .body .page:nth-child(2) .neirong02 .zhifu01 {
+	width: 250px;
+	height: 70px;
+	float: left;
+	margin-right: 10px;
+	/* background-color: blue; */
+}
+
+.container .box .body .page:first-child .neirong01 .zhifu01:first-child,
+.container .box .body .page:nth-child(2) .neirong02 .zhifu01:first-child {
+	margin-left: 30px;
+}
+
+.container .box .body .page:first-child .neirong01 .zhifu01:last-child {
+	position: relative;
+	top: 25px;
+	left: 30px;
+}
+
+
+.container .box .body .page:first-child .neirong01 .zhifu01 .zhifu01_01,
+.container .box .body .page:nth-child(2) .neirong02 .zhifu01 .zhifu01_01 {
+	width: 100%;
+	height: 24px;
+}
+
+.container .box .body .page:first-child .neirong01 .zhifu01 .zhifu01_01 span,
+.container .box .body .page:nth-child(2) .neirong02 .zhifu01 .zhifu01_01 span {
+	display: inline-block;
+	width: 45px;
+	height: 24px;
+	position: relative;
+	top: -3px;
+	background-color: #da3232;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.container .box .body .page:first-child .neirong01 .zhifu01 .zhifu01_02,
+.container .box .body .page:nth-child(2) .neirong02 .zhifu01 .zhifu01_02 {
+	width: 100%;
+	height: 55px;
+	position: relative;
+	top: 0;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+
+.choose::after {
+	display: block;
+	width: 25px;
+	height: 23px;
+	content: "";
+	background: url(../img/about_zhifu/select_icon.png) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.container .box .body .page:first-child .neirong01 .zhifu01 .zhifu01_02.choose,
+.container .box .body .page:nth-child(2) .neirong02 .zhifu01 .zhifu01_02.choose {
+	padding: 0;
+	border: 1px solid #da3232;
+}
+
+
+.container .box .body .page:first-child .neirong01 .zhifu01 .zhifu01_02 .pic,
+.container .box .body .page:nth-child(2) .neirong02 .zhifu01 .zhifu01_02 .pic {
+	width: 92px;
+	height: 28px;
+	position: relative;
+	top: 13px;
+	left: 73px;
+}
+
+.container .box .body .page:first-child .neirong01 .zhifu01 .zhifu01_02 .pic img,
+.container .box .body .page:nth-child(2) .neirong02 .zhifu01 .zhifu01_02 .pic img {
+	width: 100%;
+	height: 100%;
+}
+
+.yincang {
+	display: none;
+}
+
+
+
+/* 默认选中的样式 */
+.container .box>.title>.item.selected {
+	background-color: #fff;
+	border-bottom: none;
+}
+
+.container .box>.title>.item {
+	background-color: #e6e6e6;
+}
+
+.container .box .body .page {
+	display: none;
+	font-size: 20px;
+	/* font-weight: bold; */
+}
+
+/* 默认选中的样式 */
+.container .box .body .page.selected {
+	/* 提升这个优先级 */
+	display: block;
+}
+
+.container button {
+	display: inline-block;
+	width: 168px;
+	height: 40px;
+	float: right;
+	margin-top: 80px;
+	font-size: 18px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	background: #DA3232;
+	color: #ffffff;
+}
+
+.floor3 {
+	width: 100%;
+	height: 70px;
+	margin-top: 60px;
+	background-color: #e6e6e6;
+}
+
+.floor3 .wenzi {
+	height: 30px;
+	float: left;
+	margin-left: 450px;
+	margin-top: 15px;
+}

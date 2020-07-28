@@ -1,0 +1,66 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th {
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: 0;
+}
+li {
+	list-style: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix {
+	*zoom: 1;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	line-height: 0;
+	content: "";
+	clear: both;
+}
+.container {
+	width: 1090px;
+	margin-right: auto;
+	margin-left: auto;
+	*zoom: 1;
+}
+.container:before,
+.container:after {
+	display: table;
+	line-height: 0;
+	content: "";
+	clear: both;
+}

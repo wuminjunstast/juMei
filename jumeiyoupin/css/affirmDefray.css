@@ -1,0 +1,657 @@
+@charset "utf-8";
+
+.container {
+	width: 1200px;
+	/* height: 500px; */
+	margin: 0 auto;
+}
+
+.header2 {
+	width: 100%;
+	height: 74px;
+	background-color: #ffffff;
+}
+
+
+.header2 .container1 {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.header2 .container1 .logo {
+	width: 260px;
+	height: 48px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.header2 .container1 .logo img {
+	width: 100%;
+	height: 100%;
+}
+
+.header2 .container1 span {
+	display: inline-block;
+	font-size: 23px;
+	color: #333;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+
+.container .floor1 {
+	width: 100%;
+	height: 230px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	padding: 15px 35px;
+}
+
+.container .floor1 .dizhi {
+	width: 1100px;
+	height: 160px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	padding-top: 15px;
+}
+
+.container .floor1 .dizhi .moren {
+	width: 360px;
+	height: 145px;
+}
+
+.container .floor1 .dizhi .add {
+	width: 360px;
+	height: 119px;
+	border: 1px solid #ccc;
+	position: relative;
+	top: -142px;
+	left: 400px;
+}
+
+.container .floor1 .dizhi .add a {
+	display: inline-block;
+	margin-top: 50px;
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	margin-left: 120px;
+}
+
+
+.container .floor1 .dizhi .moren.current {
+	background: url(../img/btn-address.png) no-repeat;
+}
+
+.container .floor1 .dizhi .moren span:first-child {
+	display: inline-block;
+	padding: 3px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #a4a4a4;
+}
+
+.container .floor1 .dizhi .moren p {
+	color: #333;
+	font-size: 14px;
+}
+
+.container .floor1 .dizhi .moren p .name {
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+.container .floor1 .dizhi .moren p .tel {
+	margin-left: 220px;
+}
+
+.container .floor1 .dizhi .moren .site {
+	color: #9a9a9a;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.container .floor1 .dizhi .moren .sub {
+	font-size: 15px;
+	position: relative;
+	top: 25px;
+	left: 230px;
+	/* display: none; */
+}
+
+.container .floor1 .dizhi .moren .sub a {
+	position: relative;
+	top: -5px;
+	left: 2px;
+}
+
+.container .floor1 .dizhi .moren .sub img {
+	width: 20px;
+	height: 20px;
+}
+
+.container .floor1 .dizhi .moren .sub .del {
+	position: relative;
+	top: -25px;
+	left: 60px;
+}
+
+.container .floor1 .dizhi .add {
+	background: url(../img/btn-address.png) no-repeat;
+
+}
+
+.container .floor2 {
+	width: 100%;
+	height: 570px;
+	box-sizing: border-box;
+	padding: 35px;
+	background-color: #fff;
+}
+
+.container .floor2 .box {
+	width: 1020px;
+	height: 500px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+
+}
+
+.container .floor2 .left {
+	width: 640px;
+	height: 100%;
+	border-right: 1px solid #ccc;
+	float: left;
+	box-sizing: border-box;
+}
+
+.container .floor2 .left .up {
+	width: 100%;
+	height: 250px;
+	box-sizing: border-box;
+	padding: 0px 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+.container .floor2 .left .up .up01 {
+	width: 700px;
+	height: 135px;
+}
+
+.container .floor2 .left .up .up01 b {
+	font-weight: 500;
+	font-size: 14px;
+	color: #333;
+	position: relative;
+	left: 130px;
+	top: 30px;
+}
+
+.container .floor2 .left .up .up01 .pic {
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-top: 15px;
+	
+}
+
+.container .floor2 .left .up .up01 p {
+	display: inline-block;
+	font-size: 20px;
+	color: #333;
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+
+
+.container .floor2 .left .up .up01 .jiage {
+	display: inline-block;
+	font-size: 20px;
+	color: #333;
+	position: relative;
+	left: 127px;
+	top: 30px;
+}
+
+.container .floor2 .left .up .up02 {
+	width: 700px;
+	height: 100px;
+}
+
+.container .floor2 .left .up .up02 span {
+	display: inline-block;
+	font-size: 14px;
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+
+.container .floor2 .left .up .up02 .zengpin {
+	height: 100%;
+	width: 550px;
+	float: right;
+	border-top: 1px solid #ccc;
+}
+
+.container .floor2 .left .up .up02 .zengpin img {
+	width: 32px;
+}
+
+.container .floor2 .left .up .up02 .zengpin .pic1,
+.container .floor2 .left .up .up02 .zengpin .pic2 {
+	height: 23px;
+	width: 300px;
+	margin-top: 18px;
+}
+
+.container .floor2 .left .up .up02 .zengpin .pic1 span,
+.container .floor2 .left .up .up02 .zengpin .pic2 span {
+	position: relative;
+	top: -5px;
+}
+
+.container .floor2 .left .up .up02 .zengpin .pic1 p,
+.container .floor2 .left .up .up02 .zengpin .pic2 p {
+	position: relative;
+	top: -23px;
+	left: 405px;
+}
+
+
+
+.container .floor2 .left .down {
+	width: 100%;
+	height: 250px;
+	box-sizing: border-box;
+	padding: 0px 30px;
+}
+
+.container .floor2 .left .down .down_01 {
+	width: 570px;
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.container .floor2 .left .down .down_01 span:first-child {
+	font-size: 18px;
+	color: #333;
+	display: inline-block;
+	position: relative;
+	left: 15px;
+}
+
+.container .floor2 .left .down .down_01 p {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 60px;
+}
+
+.container .floor2 .left .down .down_01 span:nth-child(3),
+.container .floor2 .left .down .down_01 span:nth-child(4) {
+	display: inline-block;
+	font-size: 15px;
+	color: #333;
+	position: relative;
+	top: 10px;
+	left: 135px;
+	margin-right: 10px;
+}
+
+.container .floor2 .left .down .down_01 a {
+	display: inline-block;
+	font-size: 15px;
+	position: relative;
+	top: 10px;
+	left: 150px;
+	text-decoration: underline;
+}
+
+.container .floor2 .left .down .down_02 {
+	width: 550px;
+	height: 100px;
+	box-sizing: border-box;
+	position: relative;
+	top: -20px;
+}
+
+.container .floor2 .left .down .down_02 .up {
+	width: 550px;
+	height: 30px;
+	border-bottom: none;
+}
+
+.container .floor2 .left .down .down_02 .up span {
+	font-size: 18px;
+	color: #333;
+	display: inline-block;
+	position: relative;
+	left: 0px;
+}
+
+.container .floor2 .left .down .down_02 .up .pic {
+	width: 32px;
+	height: 22px;
+	position: relative;
+	top: -20px;
+	left: 120px;
+}
+
+.container .floor2 .left .down .down_02 .up .pic img {
+	width: 100%;
+	height: 100%;
+}
+
+.container .floor2 .left .down .down_02 .up a {
+	display: inline-block;
+	color: #DA3232;
+	font-size: 15px;
+	text-decoration: underline;
+	position: relative;
+	top: -40px;
+	left: 180px;
+}
+
+.container .floor2 .left .down .down_02 .down {
+	width: 550px;
+	height: 60px;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+
+.container .floor2 .left .down .down_02 .down .ipt1,
+.container .floor2 .left .down .down_02 .down .ipt2 {
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	margin-left: 109px;
+}
+
+.container .floor2 .left .down .down_02 .down .ipt1 input,
+.container .floor2 .left .down .down_02 .down .ipt2 input {
+	position: relative;
+	top: 5px;
+}
+
+.container .floor2 .left .down .down_02 .down .ipt1 span,
+.container .floor2 .left .down .down_02 .down .ipt2 span {
+	font-size: 13px;
+	margin-right: 5px;
+}
+
+.container .floor2 .left .down .down_02 .down .ipt1 a,
+.container .floor2 .left .down .down_02 .down .ipt2 a {
+	text-decoration: underline;
+}
+
+
+
+.container .floor2 .right {
+	width: 378px;
+	height: 100%;
+	float: right;
+	box-sizing: border-box;
+	padding: 30px 30px;
+	background-color: #f6f6f6;
+}
+
+.container .floor2 .right .up {
+	width: 300px;
+	height: 110px;
+}
+
+.container .floor2 .right .up .up_01 {
+	width: 100%;
+	height: 50px;
+}
+
+.container .floor2 .right .up .up_01 p {
+	font-size: 20px;
+	color: #333;
+}
+
+.container .floor2 .right .up .up_01 p span {
+	margin: 0px 5px;
+	color: #DA3232;
+}
+
+.container .floor2 .right .up .up_02 {
+	width: 100%;
+	height: 55px;
+	border-bottom: 1px solid #ccc;
+}
+
+.container .floor2 .right .up .up_02 p {
+	font-size: 15px;
+	color: #333;
+	position: relative;
+	top: -35px;
+	left: 30px;
+}
+
+.container .floor2 .right .up .up_02 img {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: -10px;
+}
+
+.container .floor2 .right .up .up_02 .time {
+	position: relative;
+	top: -35px;
+	left: 30px;
+}
+
+.container .floor2 .right .up .up_02 .wenhao {
+	position: relative;
+	top: -30px;
+	left: 30px;
+	cursor: pointer;
+}
+
+.container .floor2 .right .down {
+	width: 230px;
+	height: 116px;
+	position: relative;
+	top: 220px;
+	left: 110px;
+	box-sizing: border-box;
+}
+
+.container .floor2 .right .down div {
+	width: 100%;
+	height: 25px;
+	margin-top: 5px;
+}
+
+.container .floor2 .right .down div strong,
+.container .floor2 .right .down div p,
+.container .floor2 .right .down div span {
+	color: #333;
+	float: left;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: right;
+}
+
+.container .floor2 .right .down div p {
+	margin-left: 30px;
+}
+
+.container .floor2 .right .down .f2 strong {
+	margin-left: 49px;
+}
+
+.container .floor2 .right .down .f3 strong,
+.container .floor2 .right .down .f4 strong {
+	margin-left: 17px;
+}
+
+.container .floor2 .right .down .f2 p {
+	margin-left: 59px;
+}
+
+.container .floor2 .right .down .f3 p {
+	margin-left: 47px;
+}
+
+.container .floor2 .right .down .f3 img {
+	width: 18px;
+	height: 17px;
+	position: relative;
+	top: 4px;
+	right: 110px;
+	cursor: pointer;
+}
+
+.container .floor2 .right .down .f4 p {
+	font-size: 25px;
+	color: #DA3232;
+	position: relative;
+	top: -7px;
+	left: -30px;
+}
+
+.container .floor2 .right .down .f4 .jiesuan {
+	font-size: 25px;
+	color: #DA3232;
+	position: relative;
+	top: -8px;
+	left: -30px;
+}
+
+.container .floor3 {
+	width: 100%;
+	height: 250px;
+	background-color: #fff;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 20px 35px;
+}
+
+.container .floor3 .box {
+	width: 300px;
+	height: 200px;
+	float: right;
+	/* background-color: pink; */
+}
+
+.container .floor3 .box .f1 {
+	width: 100%;
+	height: 80px;
+	margin-top: 20px;
+}
+
+.container .floor3 .box .f1 strong {
+	font-size: 18px;
+	color: 333;
+	font-weight: 500;
+	display: inline-block;
+	margin-left: 75px;
+}
+
+.container .floor3 .box .f1 b {
+	font-size: 25px;
+	color: #DA3232;
+	font-weight: bold;
+	display: inline-block;
+	/* margin-left: 20px; */
+}
+
+.container .floor3 .box .f1 .yingfu {
+	font-size: 25px;
+	color: #DA3232;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.container .floor3 .box .f1 h5 {
+	font-size: 15px;
+	color: #444;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+	left: 180px;
+}
+
+.container .floor3 .box .f1 p {
+	font-size: 15px;
+	color: #444;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+	left: 180px;
+}
+
+
+.container .floor3 .box .f2 {
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	background-color: #fef6f3;
+}
+
+.container .floor3 .box .f2 li {
+	list-style: none;
+	font-size: 13px;
+	position: relative;
+	left: 30px;
+}
+
+.container .floor3 .box .f2 li .dizhi {
+	display: inline-block;
+	position: relative;
+	top: -17px;
+	left: 50px;
+	color: #333;
+}
+
+.container .floor3 .box .f2 li:last-child {
+	position: relative;
+	top: -15px;
+	left: 81px;
+	color: #333;
+}
+
+.container .floor3 .box .f3 {
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+}
+
+.container .floor3 .box .f3 a {
+	float: right;
+	margin-top: 15px;
+	text-align: center;
+	background: #ca141d;
+	color: #fff;
+	width: 172px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 18px;
+	border-radius: 2px;
+}
+
+.footer {
+	width: 100%;
+	height: 70px;
+	margin-top: 60px;
+	background-color: #e6e6e6;
+}
+
+.footer .wenzi {
+	height: 30px;
+	float: left;
+	margin-left: 450px;
+	margin-top: 15px;
+}

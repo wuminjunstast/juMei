@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册-聚美账户</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<link rel="stylesheet" href="css/drag.css">
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/drag.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- login的头部 -->
+		<div class="login_header">
+			<div class="container clearfix">
+				<a href="index.html" class="fl"><img src="img/logo_new_v1.jpg"></a>
+				<a href="index.html" class="fr" target="_blank"><img src="img/header_corn_new_v2.png"></a>
+				<a href="index.html" class="fr" target="_blank"><img src="img/gild.png"></a>
+				<a href="index.html" class="fr" target="_blank"><img src="img/header_corn_new_v2.png"></a>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<!-- 图片 -->
+				<div class="imglogin">
+					<a href="index.html" id="bgimg" target="_blank"></a>
+				</div>
+				<!-- register表单 -->
+				<div class="register public">
+					<h1 class="clearfix">用户注册
+						<p class="fr">已有账号<span id="tologin">在此登录</span></p>
+					</h1>
+					<form id="register_form" action="">
+						<div class="item">
+							<input type="text" placeholder="手机号" id="tel" autocomplete="off">
+							<!-- <i></i> -->
+							<p>请输入11位手机号码</p>
+							<p><em></em>您输入的手机号码格式有误，需为11位数字格式</p>
+						</div>
+						<div class="item">
+							<input type="text" placeholder="短信验证码" id="iptnote" autocomplete="off">
+							<button type="button" id="getnote">获取短信验证码</button>
+							<p>请输入6位短信验证码</p>
+							<p><em></em>请输入6位短信验证码</p>
+							<p><em></em>请点击获取验证码</p>
+						</div>
+						<div class="item">
+							<!-- // 有时间加密码强度验证 -->
+							<input type="password" placeholder="密码" id="pass01">
+							<p>6-16个字符，建议使用数字、字母、特殊字符组合</p>
+							<p><em></em>为了您的账号安全，密码长度智能在6-16位之间</p>
+							<p><em></em>密码必须包含一个字母，一个数字</p>
+						</div>
+						<div class="item">
+							<input type="password" placeholder="重复密码" id="pass02">
+							<p>请再次输入密码</p>
+							<p><em></em>两次输入的密码不一致，请重新输入</p>
+						</div>
+						<input type="submit" value="同意协议并注册">
+						<h6 class="clearfix">
+							<a href="index.html" class="fl" target="_blank">《聚美优品用户协议》</a>
+							<a href="index.html" class="fr" target="_blank">《聚美隐私权政策》</a>
+						</h6>
+					</form>
+				</div>
+				<!-- login表单 -->
+				<div class="login public" id="contolH">
+					<h1 class="clearfix">登录聚美
+						<p class="fr">还没有聚美账号？<span id="toregister">30秒注册</span></p>
+					</h1>
+					<div class="select_login">
+						<label for="phone_login"><input type="radio" name="logincheck" value="1" checked="checked" />
+							手机动态密码登录</label>
+						<label for="normal_login"><input type="radio" name="logincheck" value="2" /> 普通登录</label>
+					</div>
+					<!-- 动态密码登录 -->
+					<form action="" class="login01" id="login01_form">
+						<div class="item">
+							<input type="text" placeholder="已注册的手机号" id="user" autocomplete="off">
+							<p>请输入11位手机号码</p>
+							<p><em></em>您输入的手机号码格式有误，需为11位数字格式</p>
+						</div>
+						<div class="item">
+							<input type="text" placeholder="动态密码" id="autocode" autocomplete="off">
+							<!-- 一般获取之后按钮会变成倒计时，有时间再改 -->
+							<button type="button" id="getcode">获取手机动态密码</button>
+							<p>请输入6位手机动态密码</p>
+							<p><em></em>请输入6位动态密码</p>
+							<p><em></em>请点击获取手机动态密码</p>
+						</div>
+						<input type="submit" value="登录">
+					</form>
+					<!-- 普通密码登录 -->
+					<form action="" class="login02" id="login02_form">
+						<div class="item">
+							<input type="text" placeholder="已验证手机/邮箱/用户名" id="person" autocomplete="off">
+							<p>请输入用户名，用户名可能是您的手机号</p>
+							<p><em></em>您输入的用户名不正确</p>
+						</div>
+						<div class="item" id="code">
+							<input type="password" placeholder="密码" id="password" autocomplete="off">
+							<p>请输入您的密码，密码可能为数字、字母或符号</p>
+							<p><em></em>您输入的密码不正确</p>
+						</div>
+						<!-- 滑动验证 -->
+						<div class="item alertdrag">
+							<div id="drag"></div>
+							<p></p>
+							<p id="alertdrag"><em></em>请完成验证</p>
+						</div>
+						<h4><label for="auto_login"><input type="checkbox" id="auto_login02" value="4" checked="checked" /> 自动登录</label></h4>
+						<input type="submit" value="登录">
+					</form>
+					<div class="other_login">
+						<p>你也可以使用以下账号登录</p>
+						<p class="oth_img">
+							<a href="index.html" target="_blank"></a>
+							<a href="index.html" target="_blank"></a>
+							<a href="index.html" target="_blank"></a>
+							<a href="index.html" target="_blank"></a>
+							<a href="index.html" target="_blank"></a>
+							<span class="clearfix" id="more">更多<em class="fr"></em></span>
+						</p>
+						<p class="oth_img">
+							<a href="index.html" target="_blank"></a>
+							<a href="index.html" target="_blank"></a>
+							<a href="index.html" target="_blank"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 尾部 -->
+		<div id="footer_simple"></div>
+	</body>
+</html>

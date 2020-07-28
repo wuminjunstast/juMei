@@ -1,0 +1,173 @@
+.right_menu {
+	background: #444851;
+	position: fixed;
+	z-index: 20;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 100%;
+}
+
+.right_box {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.right_login {
+	position: relative;
+	display: block;
+	height: 38px;
+	
+}
+.right_box {
+	z-index: 100;
+}
+.right_login>a {
+	display: block;
+	line-height: 200px;
+	width: 40px;
+	height: 38px;
+	text-decoration: none;
+	color: #d8d8d8;
+	background-color: #444851;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 30;
+}
+
+#right_img1 {
+	width: 18px;
+	height: 19px;
+	top: 10px;
+	left: 11px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	
+}
+
+.right_box>ul:first-child {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -190px;
+}
+
+
+.right_cart {
+	padding: 20px 0 10px;
+	height: 133px;
+
+}
+
+.right_cart a {
+	position: absolute;
+	height: 133px;
+	width: 100%;
+	line-height: 16px;
+	color: #fff;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	background-position: -23px -225px;
+	text-decoration: none;
+}
+
+#right-text {
+	width: 16px;
+	display: block;
+	height: 48px;
+	margin: 38px 0 0 13px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+#right-text1 {
+	width: 23px;
+	height: 23px;
+	display: block;
+	border-radius: 50%;
+	background: #ed145b;
+	text-align: center;
+	line-height: 23px;
+	margin: 9px 0 0 8px;
+	cursor: pointer;
+	color: #fff;
+}
+
+#right_img2 {
+	width: 23px;
+	height: 18px;
+	top: 11px;
+	left: 9px;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	background-position: 0 -29px;
+	position: absolute;
+}
+
+#right_img5 {
+	width: 23px;
+	height: 20px;
+	top: 11px;
+	left: 11px;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	background-position: 0 -57px;
+	position: absolute;
+}
+
+#right_img3 {
+	width: 23px;
+	height: 15px;
+	top: 11px;
+	left: 11px;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	background-position: 0 -85px;
+	position: absolute;
+}
+
+#right_img4 {
+	width: 23px;
+	height: 24px;
+	top: 11px;
+	left: 13px;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	background-position: -4px -110px;
+	position: absolute;
+}
+
+#right_img6 {
+	width: 18px;
+	height: 18px;
+	top: 11px;
+	left: 11px;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	background-position: 0 -302px;
+	position: absolute;
+}
+
+#right_img8 {
+	width: 15px;
+	height: 16px;
+	top: 11px;
+	left: 12px;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	background-position: 0 -175px;
+	position: absolute;
+}
+
+#right_img7 {
+	width: 17px;
+	height: 14px;
+	top: 12px;
+	left: 12px;
+	background: url(../img/ibar_sprites.png) no-repeat;
+	background-position: 0 -201px;
+	position: absolute;
+}
+
+.right_menu ul:last-child {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 40px;
+}
